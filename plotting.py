@@ -14,7 +14,7 @@ df = pd.read_csv("data.csv")
 df["Duration"].plot(kind= "hist")
 plt.show()
 
-# plt.legend(loc="upper right")
-# plt.ylabel("y-numbers")
-# plt.xlabel("x-numbers")
+plt.legend(loc="upper right")
+plt.ylabel("y-numbers")
+plt.xlabel("x-numbers")
 
