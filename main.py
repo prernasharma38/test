@@ -110,4 +110,7 @@ df = pd.read_csv("data.csv")
 my= df.head(20)
 # print(my.duplicated())
 my. drop_duplicates(inplace= True)
-print(my)
+
+
+
+print("hello")
